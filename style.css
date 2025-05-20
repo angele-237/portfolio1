@@ -252,7 +252,7 @@
     }
 }
 
-@media screen and (min-width: 50px) and (max-width: 800px) {
+@media screen and (min-width: 20px) and (max-width: 800px) {
 
 
     /* corps du site */
@@ -260,7 +260,6 @@
         font-size: 15px;
         margin: 0px;
         padding: 0px;
-        /* width: 100%; */
         background-color: rgb(141, 141, 165);
     }
 
@@ -374,6 +373,8 @@
     .propos table td {
         font-size: 15px;
         padding: 5px;
+        white-space: normal;
+        overflow-wrap: break-word;
     }
 
     /* IMAGES DU CV */
@@ -459,6 +460,8 @@
     .contact tr td a {
         text-decoration: none;
         width: 50%;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     /* mon portfolio */
